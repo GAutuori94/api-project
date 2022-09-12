@@ -1,8 +1,7 @@
 {
   "name": "api-project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "task": "echo 'Doing task ...'"
+    "test": "jest"
   },
   "engines": {
     "node": ">= 16"
@@ -14,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/GAutuori94/api-project/issues"
   },
-  "homepage": "https://github.com/GAutuori94/api-project#readme"
+  "homepage": "https://github.com/GAutuori94/api-project#readme",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
 }
