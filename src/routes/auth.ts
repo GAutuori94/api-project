@@ -1,6 +1,4 @@
-import { response, Router } from "express";
-import { readdir } from "fs";
-import { request } from "http";
+import { Router } from "express";
 import {passport} from "../lib/middleware/passport";
 
 const router = Router();

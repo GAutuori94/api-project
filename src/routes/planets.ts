@@ -1,4 +1,4 @@
-import express, { Request, Router } from "express";
+import express, { Router } from "express";
 
 import prisma from "../lib/prisma/client";
 
